@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+    background-image: url('media/landscape.jpg');
+    background: cover;
+    background-size: cover;
+}
+
+.card-container {
+    background: #000000d0;
+    color: white;
+    border-radius: 2rem;
+    padding: 2rem;
+    width: 80%;
+    max-width: 420px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+    width: 80%;
+}
+
+.search button{
+    margin-left: 0.5rem;
+    border-radius: 50%;
+    width: 2.4rem;
+    height: 2.4rem;
+    background: #7c7c7c2b;
+    color: white;
+}
+
+.search button:hover {
+    background: #7c7c7c6b;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.description{
+    text-transform: capitalize;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
